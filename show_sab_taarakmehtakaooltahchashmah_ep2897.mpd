@@ -1,70 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd" type="static" minBufferTime="PT4S" profiles="urn:mpeg:dash:profile:isoff-main:2011" mediaPresentationDuration="PT20M23.808S">
-  <BaseURL>https://streaming.sonyliv.com/</BaseURL>
-  <Period start="PT0S" duration="PT20M23.808S" id="1">
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd" type="static" minBufferTime="PT4S" profiles="urn:mpeg:dash:profile:isoff-main:2011" mediaPresentationDuration="PT22M9.240S">
+  <BaseURL>https://securetoken.sonyliv.com/DASH/</BaseURL>
+  <Period start="PT0S" duration="PT22M9.240S" id="1">
     <AdaptationSet mimeType="video/mp4" frameRate="25/1" segmentAlignment="true" subsegmentAlignment="true" startWithSAP="1" subsegmentStartsWithSAP="1" bitstreamSwitching="false">
       <SegmentTemplate timescale="90000" startNumber="1"/>
       <Representation id="1" width="1920" height="1080" bandwidth="3500000" codecs="avc1.640028">
-        <SegmentTemplate media="show_sab_taarakmehtakaooltahchashmah_ep2897_3500k_20201012T190344_$Number%09d$.mp4" initialization="show_sab_taarakmehtakaooltahchashmah_ep2897_3500k_20201012T190344init.mp4" startNumber="1">
+        <SegmentTemplate media="show_sab_taarakmehta_ep3061_18122020_aws_3500k_20201218T094635_$Number%09d$.mp4?hdntl=exp=1608479342~acl=/*~hmac=8d739112feb31658ae6d8ce838c9c7adf7610db8010f45c14d0c63ab2ac6d92c" initialization="show_sab_taarakmehta_ep3061_18122020_aws_3500k_20201218T094635init.mp4?hdntl=exp=1608479342~acl=/*~hmac=8d739112feb31658ae6d8ce838c9c7adf7610db8010f45c14d0c63ab2ac6d92c" startNumber="1">
           <SegmentTimeline>
-            <S t="0" d="360000" r="304"/>
-            <S t="109800000" d="342000"/>
+            <S t="0" d="360000" r="331"/>
+            <S t="119520000" d="111600"/>
           </SegmentTimeline>
         </SegmentTemplate>
       </Representation>
       <Representation id="2" width="1280" height="720" bandwidth="2000000" codecs="avc1.64001f">
-        <SegmentTemplate media="show_sab_taarakmehtakaooltahchashmah_ep2897_2000k_20201012T190344_$Number%09d$.mp4" initialization="show_sab_taarakmehtakaooltahchashmah_ep2897_2000k_20201012T190344init.mp4" startNumber="1">
+        <SegmentTemplate media="show_sab_taarakmehta_ep3061_18122020_aws_2000k_20201218T094635_$Number%09d$.mp4?hdntl=exp=1608479342~acl=/*~hmac=8d739112feb31658ae6d8ce838c9c7adf7610db8010f45c14d0c63ab2ac6d92c" initialization="show_sab_taarakmehta_ep3061_18122020_aws_2000k_20201218T094635init.mp4?hdntl=exp=1608479342~acl=/*~hmac=8d739112feb31658ae6d8ce838c9c7adf7610db8010f45c14d0c63ab2ac6d92c" startNumber="1">
           <SegmentTimeline>
-            <S t="0" d="360000" r="304"/>
-            <S t="109800000" d="342000"/>
+            <S t="0" d="360000" r="331"/>
+            <S t="119520000" d="111600"/>
           </SegmentTimeline>
         </SegmentTemplate>
       </Representation>
       <Representation id="3" width="1280" height="720" bandwidth="1200000" codecs="avc1.64001f">
-        <SegmentTemplate media="show_sab_taarakmehtakaooltahchashmah_ep2897_1200k_20201012T190344_$Number%09d$.mp4" initialization="show_sab_taarakmehtakaooltahchashmah_ep2897_1200k_20201012T190344init.mp4" startNumber="1">
+        <SegmentTemplate media="show_sab_taarakmehta_ep3061_18122020_aws_1200k_20201218T094635_$Number%09d$.mp4?hdntl=exp=1608479342~acl=/*~hmac=8d739112feb31658ae6d8ce838c9c7adf7610db8010f45c14d0c63ab2ac6d92c" initialization="show_sab_taarakmehta_ep3061_18122020_aws_1200k_20201218T094635init.mp4?hdntl=exp=1608479342~acl=/*~hmac=8d739112feb31658ae6d8ce838c9c7adf7610db8010f45c14d0c63ab2ac6d92c" startNumber="1">
           <SegmentTimeline>
-            <S t="0" d="360000" r="304"/>
-            <S t="109800000" d="342000"/>
+            <S t="0" d="360000" r="331"/>
+            <S t="119520000" d="111600"/>
           </SegmentTimeline>
         </SegmentTemplate>
       </Representation>
       <Representation id="4" width="960" height="540" bandwidth="900000" codecs="avc1.64001f">
-        <SegmentTemplate media="show_sab_taarakmehtakaooltahchashmah_ep2897_900k_20201012T190344_$Number%09d$.mp4" initialization="show_sab_taarakmehtakaooltahchashmah_ep2897_900k_20201012T190344init.mp4" startNumber="1">
+        <SegmentTemplate media="show_sab_taarakmehta_ep3061_18122020_aws_900k_20201218T094635_$Number%09d$.mp4?hdntl=exp=1608479342~acl=/*~hmac=8d739112feb31658ae6d8ce838c9c7adf7610db8010f45c14d0c63ab2ac6d92c" initialization="show_sab_taarakmehta_ep3061_18122020_aws_900k_20201218T094635init.mp4?hdntl=exp=1608479342~acl=/*~hmac=8d739112feb31658ae6d8ce838c9c7adf7610db8010f45c14d0c63ab2ac6d92c" startNumber="1">
           <SegmentTimeline>
-            <S t="0" d="360000" r="304"/>
-            <S t="109800000" d="342000"/>
+            <S t="0" d="360000" r="331"/>
+            <S t="119520000" d="111600"/>
           </SegmentTimeline>
         </SegmentTemplate>
       </Representation>
       <Representation id="5" width="640" height="360" bandwidth="664000" codecs="avc1.4d401e">
-        <SegmentTemplate media="show_sab_taarakmehtakaooltahchashmah_ep2897_664k_20201012T190344_$Number%09d$.mp4" initialization="show_sab_taarakmehtakaooltahchashmah_ep2897_664k_20201012T190344init.mp4" startNumber="1">
+        <SegmentTemplate media="show_sab_taarakmehta_ep3061_18122020_aws_664k_20201218T094635_$Number%09d$.mp4?hdntl=exp=1608479342~acl=/*~hmac=8d739112feb31658ae6d8ce838c9c7adf7610db8010f45c14d0c63ab2ac6d92c" initialization="show_sab_taarakmehta_ep3061_18122020_aws_664k_20201218T094635init.mp4?hdntl=exp=1608479342~acl=/*~hmac=8d739112feb31658ae6d8ce838c9c7adf7610db8010f45c14d0c63ab2ac6d92c" startNumber="1">
           <SegmentTimeline>
-            <S t="0" d="360000" r="304"/>
-            <S t="109800000" d="342000"/>
+            <S t="0" d="360000" r="331"/>
+            <S t="119520000" d="111600"/>
           </SegmentTimeline>
         </SegmentTemplate>
       </Representation>
-      <Representation id="6" width="512" height="288" bandwidth="412000" codecs="avc1.4d4015">
-        <SegmentTemplate media="show_sab_taarakmehtakaooltahchashmah_ep2897_412k_20201012T190344_$Number%09d$.mp4" initialization="show_sab_taarakmehtakaooltahchashmah_ep2897_412k_20201012T190344init.mp4" startNumber="1">
+      <Representation id="6" width="384" height="288" bandwidth="412000" codecs="avc1.4d4015">
+        <SegmentTemplate media="show_sab_taarakmehta_ep3061_18122020_aws_412k_20201218T094635_$Number%09d$.mp4?hdntl=exp=1608479342~acl=/*~hmac=8d739112feb31658ae6d8ce838c9c7adf7610db8010f45c14d0c63ab2ac6d92c" initialization="show_sab_taarakmehta_ep3061_18122020_aws_412k_20201218T094635init.mp4?hdntl=exp=1608479342~acl=/*~hmac=8d739112feb31658ae6d8ce838c9c7adf7610db8010f45c14d0c63ab2ac6d92c" startNumber="1">
           <SegmentTimeline>
-            <S t="0" d="360000" r="304"/>
-            <S t="109800000" d="342000"/>
+            <S t="0" d="360000" r="331"/>
+            <S t="119520000" d="111600"/>
           </SegmentTimeline>
         </SegmentTemplate>
       </Representation>
       <Representation id="7" width="384" height="216" bandwidth="224000" codecs="avc1.4d400d">
-        <SegmentTemplate media="show_sab_taarakmehtakaooltahchashmah_ep2897_224K_20201012T190344_$Number%09d$.mp4" initialization="show_sab_taarakmehtakaooltahchashmah_ep2897_224K_20201012T190344init.mp4" startNumber="1">
+        <SegmentTemplate media="show_sab_taarakmehta_ep3061_18122020_aws_224K_20201218T094635_$Number%09d$.mp4?hdntl=exp=1608479342~acl=/*~hmac=8d739112feb31658ae6d8ce838c9c7adf7610db8010f45c14d0c63ab2ac6d92c" initialization="show_sab_taarakmehta_ep3061_18122020_aws_224K_20201218T094635init.mp4?hdntl=exp=1608479342~acl=/*~hmac=8d739112feb31658ae6d8ce838c9c7adf7610db8010f45c14d0c63ab2ac6d92c" startNumber="1">
           <SegmentTimeline>
-            <S t="0" d="360000" r="304"/>
-            <S t="109800000" d="342000"/>
+            <S t="0" d="360000" r="331"/>
+            <S t="119520000" d="111600"/>
           </SegmentTimeline>
         </SegmentTemplate>
       </Representation>
     </AdaptationSet>
-    <AdaptationSet mimeType="audio/mp4" lang="und" segmentAlignment="0">
-      <SegmentTemplate timescale="48000" media="" initialization="" startNumber="1"/>
+    <AdaptationSet mimeType="audio/mp4" lang="hin" segmentAlignment="0">
+      <SegmentTemplate timescale="48000" media="show_sab_taarakmehta_ep3061_18122020_aws_Hindi64k_$Number%09d$.mp4?hdntl=exp=1608479342~acl=/*~hmac=8d739112feb31658ae6d8ce838c9c7adf7610db8010f45c14d0c63ab2ac6d92c" initialization="show_sab_taarakmehta_ep3061_18122020_aws_Hindi64kinit.mp4?hdntl=exp=1608479342~acl=/*~hmac=8d739112feb31658ae6d8ce838c9c7adf7610db8010f45c14d0c63ab2ac6d92c" startNumber="1"/>
+      <Label>Hindi</Label>
       <Representation id="8" bandwidth="64000" audioSamplingRate="48000" codecs="mp4a.40.2">
-        <SegmentTemplate media="show_sab_taarakmehtakaooltahchashmah_ep2897_64k_20201012T190344_$Number%09d$.mp4" initialization="show_sab_taarakmehtakaooltahchashmah_ep2897_64k_20201012T190344init.mp4" startNumber="1">
+        <SegmentTemplate media="show_sab_taarakmehta_ep3061_18122020_aws_Hindi64k_$Number%09d$.mp4?hdntl=exp=1608479342~acl=/*~hmac=8d739112feb31658ae6d8ce838c9c7adf7610db8010f45c14d0c63ab2ac6d92c" initialization="show_sab_taarakmehta_ep3061_18122020_aws_Hindi64kinit.mp4?hdntl=exp=1608479342~acl=/*~hmac=8d739112feb31658ae6d8ce838c9c7adf7610db8010f45c14d0c63ab2ac6d92c" startNumber="1">
           <SegmentTimeline>
             <S t="0" d="194560"/>
             <S t="194560" d="191488"/>
@@ -371,7 +372,34 @@
             <S t="57986048" d="192512"/>
             <S t="58178560" d="191488"/>
             <S t="58370048" d="192512"/>
-            <S t="58562560" d="180224"/>
+            <S t="58562560" d="191488"/>
+            <S t="58754048" d="192512"/>
+            <S t="58946560" d="191488"/>
+            <S t="59138048" d="192512"/>
+            <S t="59330560" d="191488"/>
+            <S t="59522048" d="192512"/>
+            <S t="59714560" d="191488"/>
+            <S t="59906048" d="192512"/>
+            <S t="60098560" d="191488"/>
+            <S t="60290048" d="192512"/>
+            <S t="60482560" d="191488"/>
+            <S t="60674048" d="192512"/>
+            <S t="60866560" d="191488"/>
+            <S t="61058048" d="192512"/>
+            <S t="61250560" d="191488"/>
+            <S t="61442048" d="192512"/>
+            <S t="61634560" d="191488"/>
+            <S t="61826048" d="192512"/>
+            <S t="62018560" d="191488"/>
+            <S t="62210048" d="192512"/>
+            <S t="62402560" d="191488"/>
+            <S t="62594048" d="192512"/>
+            <S t="62786560" d="191488"/>
+            <S t="62978048" d="192512"/>
+            <S t="63170560" d="191488"/>
+            <S t="63362048" d="192512"/>
+            <S t="63554560" d="191488"/>
+            <S t="63746048" d="57344"/>
           </SegmentTimeline>
         </SegmentTemplate>
       </Representation>
