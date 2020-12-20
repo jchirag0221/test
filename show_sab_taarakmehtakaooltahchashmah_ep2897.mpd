@@ -62,7 +62,7 @@
       </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="audio/mp4" lang="hin" segmentAlignment="0">
-      <SegmentTemplate timescale="48000" media="show_sab_taarakmehta_ep3061_18122020_aws_Hindi64k_$Number%09d$.mp4?hdntl=exp=1608479342~acl=/*~hmac=8d739112feb31658ae6d8ce838c9c7adf7610db8010f45c14d0c63ab2ac6d92c" initialization="show_sab_taarakmehta_ep3061_18122020_aws_Hindi64kinit.mp4?hdntl=exp=1608479342~acl=/*~hmac=8d739112feb31658ae6d8ce838c9c7adf7610db8010f45c14d0c63ab2ac6d92c" startNumber="1"/>
+      <SegmentTemplate timescale="48000" media="" initialization="" startNumber="1"/>
       <Label>Hindi</Label>
       <Representation id="8" bandwidth="64000" audioSamplingRate="48000" codecs="mp4a.40.2">
         <SegmentTemplate media="show_sab_taarakmehta_ep3061_18122020_aws_Hindi64k_$Number%09d$.mp4?hdntl=exp=1608479342~acl=/*~hmac=8d739112feb31658ae6d8ce838c9c7adf7610db8010f45c14d0c63ab2ac6d92c" initialization="show_sab_taarakmehta_ep3061_18122020_aws_Hindi64kinit.mp4?hdntl=exp=1608479342~acl=/*~hmac=8d739112feb31658ae6d8ce838c9c7adf7610db8010f45c14d0c63ab2ac6d92c" startNumber="1">
